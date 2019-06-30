@@ -32,12 +32,12 @@ public class Main {
                 break;
             case '/':
                 z=x/y;
-                System.out.println(" suma: " + z);
+                System.out.println("iloraz: " + z);
 
                 break;
             case '*':
                 z=x*y;
-                System.out.println(" suma: " + z);
+                System.out.println("iloczyn: " + z);
 
                 break;
             default:
