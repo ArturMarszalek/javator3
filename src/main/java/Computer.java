@@ -2,7 +2,7 @@ import java.util.Random;
 
 public class Computer {
 
-    private static Elements computerChoise (){
+    public static Elements computerChoise() {
 
         Random random = new Random();
 
@@ -10,11 +10,13 @@ public class Computer {
 
         switch  (computerChoice){
             case 1:
+                System.out.println("Komputer wybrał papier");
                 return Elements.PAPIER;
             case 2:
+                System.out.println("Komputer wybrał nożyce");
                 return Elements.NOZYCE;
         }
-
+        System.out.println("Komputer wybrał kamień");
         return Elements.KAMIEN;
     }
 
