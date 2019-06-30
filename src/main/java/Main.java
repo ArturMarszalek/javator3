@@ -27,7 +27,7 @@ public class Main {
                 break;
             case '-':
                 z=x-y;
-                System.out.println(" suma: " + z);
+                System.out.println(" różnica: " + z);
 
                 break;
             case '/':
