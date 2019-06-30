@@ -1,4 +1,4 @@
-import static org.junit.Assert.*;
+package test.java;
 
 public class MainTest {
 
